@@ -21,7 +21,7 @@ public class Gmail {
 		Session session = Session.getDefaultInstance(props,
 			new javax.mail.Authenticator() {
 				protected PasswordAuthentication getPasswordAuthentication() {
-					return new PasswordAuthentication("e4e8c08cd478","Quy5uBimat");
+					return new PasswordAuthentication("YourUserId","YourPassword");
 				}
 			});
  
