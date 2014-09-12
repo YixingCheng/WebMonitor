@@ -27,7 +27,7 @@ public class Gmail {
  
 		try {
 			
-			from = from + " <e4e8c08cd478@gmail.com>";
+			from = from + " <youremail@gmail.com>";
  
 			Message message = new MimeMessage(session);
 			message.setFrom(new InternetAddress(from));
